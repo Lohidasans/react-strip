@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-strip/static/css/main.4137e917.css",
+    "main.js": "/react-strip/static/js/main.14d13523.js",
+    "static/js/816.22238361.chunk.js": "/react-strip/static/js/816.22238361.chunk.js",
+    "static/js/787.a6545840.chunk.js": "/react-strip/static/js/787.a6545840.chunk.js",
+    "index.html": "/react-strip/index.html",
+    "main.4137e917.css.map": "/react-strip/static/css/main.4137e917.css.map",
+    "main.14d13523.js.map": "/react-strip/static/js/main.14d13523.js.map",
+    "816.22238361.chunk.js.map": "/react-strip/static/js/816.22238361.chunk.js.map",
+    "787.a6545840.chunk.js.map": "/react-strip/static/js/787.a6545840.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4137e917.css",
+    "static/js/main.14d13523.js"
+  ]
+}
