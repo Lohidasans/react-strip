@@ -18,7 +18,11 @@ const Dashboard = () => {
   const RequiredFields = ["tipAmount"];
 
   const onClickPay = () => {
-    navigate("/payment", { state: { tipAmount: edit.getValue("tipAmount") } });
+    if (RequiredFields && edit.allFilled("tipAmount")) {
+      navigate("/payment", {
+        state: { tipAmount: edit.getValue("tipAmount") },
+      });
+    }
   };
 
   return (
@@ -43,7 +47,7 @@ const Dashboard = () => {
           inputHeight={35}
         />
         <MuiButton
-          title="pay"
+          title="Pay With Card"
           sx={{
             fontSize: 12,
             fontWeight: 700,
