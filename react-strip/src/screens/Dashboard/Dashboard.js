@@ -3,10 +3,12 @@ import { memo, useState } from "react";
 import { MuiButton, MuiTextInput } from "../../components";
 import { useTheme } from "@mui/material/styles";
 import { useFormEdit } from "../../hooks/useFormEdit";
+import { useNavigate } from "react-router-dom";
 
 const Dashboard = () => {
   const theme = useTheme();
   const [isError, setIsError] = useState(false);
+  const navigate = useNavigate();
 
   const initialValues = {
     tipAmount: "",
@@ -15,7 +17,9 @@ const Dashboard = () => {
   const edit = useFormEdit(initialValues);
   const RequiredFields = ["tipAmount"];
 
-  const onClickPay = () => {};
+  const onClickPay = () => {
+    navigate("/payment", { state: { tipAmount: edit.getValue("tipAmount") } });
+  };
 
   return (
     <Container maxWidth={"xs"}>
@@ -27,8 +31,7 @@ const Dashboard = () => {
           rowGap: 40,
           height: "100%",
           alignItems: "center",
-        }}
-      >
+        }}>
         <MuiTextInput
           value={Number(edit.getValue("tipAmount")).toLocaleString("en-IN")}
           onChange={(event) => {
