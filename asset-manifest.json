@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-strip/stripe-payment-dashboard/static/css/main.4137e917.css",
-    "main.js": "/react-strip/stripe-payment-dashboard/static/js/main.9cb292b7.js",
-    "static/js/816.22238361.chunk.js": "/react-strip/stripe-payment-dashboard/static/js/816.22238361.chunk.js",
-    "static/js/787.a6545840.chunk.js": "/react-strip/stripe-payment-dashboard/static/js/787.a6545840.chunk.js",
-    "index.html": "/react-strip/stripe-payment-dashboard/index.html",
-    "main.4137e917.css.map": "/react-strip/stripe-payment-dashboard/static/css/main.4137e917.css.map",
-    "main.9cb292b7.js.map": "/react-strip/stripe-payment-dashboard/static/js/main.9cb292b7.js.map",
-    "816.22238361.chunk.js.map": "/react-strip/stripe-payment-dashboard/static/js/816.22238361.chunk.js.map",
-    "787.a6545840.chunk.js.map": "/react-strip/stripe-payment-dashboard/static/js/787.a6545840.chunk.js.map"
+    "main.css": "./static/css/main.4137e917.css",
+    "main.js": "./static/js/main.ad1a5394.js",
+    "static/js/816.22238361.chunk.js": "./static/js/816.22238361.chunk.js",
+    "static/js/787.a6545840.chunk.js": "./static/js/787.a6545840.chunk.js",
+    "index.html": "./index.html",
+    "main.4137e917.css.map": "./static/css/main.4137e917.css.map",
+    "main.ad1a5394.js.map": "./static/js/main.ad1a5394.js.map",
+    "816.22238361.chunk.js.map": "./static/js/816.22238361.chunk.js.map",
+    "787.a6545840.chunk.js.map": "./static/js/787.a6545840.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4137e917.css",
-    "static/js/main.9cb292b7.js"
+    "static/js/main.ad1a5394.js"
   ]
 }
